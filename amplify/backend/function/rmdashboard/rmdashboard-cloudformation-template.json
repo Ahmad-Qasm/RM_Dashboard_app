@@ -71,7 +71,7 @@
                 "Variables" : {"ENV":{"Ref":"env"},"REGION":{"Ref":"AWS::Region"}}
             },
             "Role": { "Fn::GetAtt": ["LambdaExecutionRole", "Arn"] },
-            "Runtime": "python3.8",
+            "Runtime": "python3.10",
             "Layers": [],
             "Timeout": 25
           }
