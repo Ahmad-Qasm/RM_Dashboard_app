@@ -10,6 +10,14 @@
       "StackName": "amplify-rmdashboard-dev-131147",
       "StackId": "arn:aws:cloudformation:us-east-1:727402085759:stack/amplify-rmdashboard-dev-131147/9c4e1170-988f-11ec-a865-0ac024fbb2d1",
       "AmplifyAppId": "d1vxcusxgvni5g"
+    },
+    "categories": {
+      "function": {
+        "rmdashboard": {
+          "deploymentBucketName": "amplify-rmdashboard-dev-131147-deployment",
+          "s3Key": "amplify-builds/rmdashboard-514c332b75364f785943-build.zip"
+        }
+      }
     }
   }
 }
